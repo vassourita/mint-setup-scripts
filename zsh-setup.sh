@@ -12,6 +12,9 @@ git clone https://github.com/kuangyujing/dracula-xfce4-terminal.git ~/.local/sha
 # tema
 ZSH_THEME="spaceship"
 
+# plugins
+plugins=(asdf docker docker-compose docker-machine dotnet git node npm npx postgres react-native redis-cli vscode yarn)
+
 # adicionar no fim do arquivo
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
